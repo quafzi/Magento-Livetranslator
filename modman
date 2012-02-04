@@ -1,0 +1,11 @@
+#
+# This file is for the module manager by script by Colin Mollenhour which can be found at
+# http://code.google.com/p/module-manager/
+#
+
+skin/frontend/base/default/css/livetranslator.css skin/frontend/base/default/css/livetranslator.css
+app/design/frontend/base/default/layout/livetranslator.xml app/design/frontend/base/default/layout/livetranslator.xml
+app/code/community/Netresearch/Livetranslator app/code/community/Netresearch/Livetranslator
+app/locale/en_US/Netresearch_Livetranslator.csv app/locale/en_US/Netresearch_Livetranslator.csv
+app/locale/de_DE/Netresearch_Livetranslator.csv app/locale/de_DE/Netresearch_Livetranslator.csv
+app/etc/modules/Netresearch_Livetranslator.xml app/etc/modules/Netresearch_Livetranslator.xml
