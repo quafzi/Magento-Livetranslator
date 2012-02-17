@@ -9,8 +9,8 @@
                             <label>Enabled for current session</label> 
                             <frontend_model>livetranslator/system_config_form_field_linkRenderer</frontend_model>
                             <sort_order>110</sort_order>
-                            <show_in_default>1</show_in_default>
-                            <show_in_website>1</show_in_website>
+                            <show_in_default>0</show_in_default>
+                            <show_in_website>0</show_in_website>
                             <show_in_store>1</show_in_store>
                         </enable_inline_translation> 
                     </fields> 

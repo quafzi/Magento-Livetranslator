@@ -53,7 +53,8 @@ extends Mage_Adminhtml_Block_System_Config_Form_Field
 
         $hash = Mage::helper('livetranslator')->getCurrentHash();
 
-        $store = Mage::getModel('core/store')->getCollection()->addFieldToFilter('is_active = ?', 1)->getFirstItem();
+        $storeCode = $this->getRequest()->getParam('store');
+        $store = Mage::getModel('core/store')->getCollection()->addFieldToFilter('code', $storeCode)->getFirstItem();
 
         $url = Mage::getUrl('livetranslator/switch/enable', array('hash' => $hash, '_store' => $store->getId()));
         $trans = $this->__('Enable inline translation for this session');
