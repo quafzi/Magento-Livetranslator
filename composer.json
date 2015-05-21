@@ -1,0 +1,16 @@
+{
+    "name": "quafzi/magento-livetranslator",
+    "description": "Activate inline translation in Magento for a single user by clicking a link, which is valid for up to 2 minutes only.",
+    "type": "magento-module",
+    "license": "OSL 3.0",
+    "authors": [
+        {
+            "name": "Thomas Birke",
+            "email": "quafzi@netextreme.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
